@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{AAED8CF0-F568-4F20-B8BC-E0CAC922819D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{707E24E8-DDF3-4EEC-AECD-AAC64C15FF9C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		LICENSE.txt = LICENSE.txt
+		PATENTS.TXT = PATENTS.TXT
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet", "dotnet\dotnet.csproj", "{C931AF2E-8CA9-4F5D-BABC-EE6315A4CE21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C931AF2E-8CA9-4F5D-BABC-EE6315A4CE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C931AF2E-8CA9-4F5D-BABC-EE6315A4CE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C931AF2E-8CA9-4F5D-BABC-EE6315A4CE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C931AF2E-8CA9-4F5D-BABC-EE6315A4CE21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C931AF2E-8CA9-4F5D-BABC-EE6315A4CE21} = {AAED8CF0-F568-4F20-B8BC-E0CAC922819D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1338F316-084D-4058-B230-D384B3FC5D31}
+	EndGlobalSection
+EndGlobal
